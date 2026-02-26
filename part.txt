@@ -1,0 +1,242 @@
+        <!-- job item 3 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                Innovation Labs
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">UI/UX Engineer</p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Astin, TS • Full-time • $110,000 - $150,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Create beautiful and functional user interfaces for our suite of
+              products. Strong design and frontend development experise require.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+        <!-- job item 4 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                MegaCorp Solutions
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">JavaScript Developer</p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Astin, TS • Full-time • $130,000 - $170,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Build enterprise applications with JavaScript and modern frameworks. Collaborate with a large team to deliver scalable solutions.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+        <!-- job item 5 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                StartupXYZ
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">Full Stack Engineer</p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Remote • Full-time • $120,000 - $160,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Join our fast-grwing startup and work on our care platform. Experience with Node.js and React required. Great benefits and stock options.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+        <!-- job item 6 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                TechCorp Industries
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">Senior Frontend Developer</p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Astin, TS • Full-time • $130,000 - $170,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+        <!-- job item 7 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                WebFlow Agency
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">Web Designer & Developer</p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Astin, TS • Full-time • $80,000 - $120,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+        <!-- job item 8 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                DataViz Solutions
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">Data Visualization Specialist</p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              
+              Boston, MA • Full-time • $125,000 - $165,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Transform complex data into compelling visualizations. Required skills: D3.js, React, and strong analytical thinking.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>

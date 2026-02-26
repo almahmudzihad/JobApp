@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Tracker</title>
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#c9dcf0]">
+    <header class="container mx-auto ">
+      <h1
+        class="text-4xl font-bold py-4 text-shadow-[0_5px_5px_rgb(0_0_0_/_0.5)]"
+      >
+        Job Application Tracker Zihad
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white p-4 rounded-2xl">
+          <p class="font-bold">Total</p>
+          <p id="total" class="text-2xl font-bold">0</p>
+        </div>
+        <div class="bg-white p-4 rounded-2xl">
+          <p class="font-bold">Interview</p>
+          <p id="interview" class="text-2xl font-bold text-green-500">0</p>
+        </div>
+        <div class="bg-white p-4 rounded-2xl">
+          <p class="font-bold">Rejected</p>
+          <p id="rejected" class="text-2xl font-bold text-red-500">0</p>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto">
+      <!-- menu part start -->
+      <div class="py-4 flex items-center justify-between">
+        <h2 class="text-2xl font-bold py-4">Available Jobs for Zihad</h2>
+        <p class="text-2xl font-bold py-4"><span id="job-count">0</span> Jobs</p>
+      </div>
+      <div class="space-x-4">
+        <button
+          onclick="switchTab('all')"
+          id="all-btn"
+          class="bg-blue-500 text-white font-bold py-2 px-4 rounded-xl"
+        >
+          All
+        </button>
+        <button
+          onclick="switchTab('interview')"
+          id="interview-btn"
+          class="bg-white font-bold py-2 px-4 rounded-xl "
+        >
+          Interview
+        </button>
+        <button
+          onclick="switchTab('rejected')"
+          id="rejected-btn"
+          class="bg-white font-bold py-2 px-4 rounded-xl"
+        >
+          Rejected
+        </button>
+      </div>
+      <!-- menu part end -->
+      
+
+      <!-- job list container -->
+      <div id="job-list">
+        <!-- job item 1 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between rounded-2xl"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                Mobile First Crop
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">
+                React Native Developer
+              </p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Remote • Full-time • $130,000 - $175,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Build cross-platform mobile applications using React Native. Work
+              on products used by millions of users worldwide.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+        <!-- job item 2 -->
+        <div
+          class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between rounded-2xl"
+        >
+          <div class="space-y-4">
+            <div>
+              <h2 class="card-name text-2xl font-bold text-[#002C5C]">
+                CloudFirst Inc
+              </h2>
+              <p class="card-job text-gray-500 text-xl mt-1">
+                Backend Developer
+              </p>
+            </div>
+
+            <p class="card-salary text-gray-500">
+              Sattle, WA • Full-time • $140,000 - $190,000
+            </p>
+            <button class="card-status bg-[#EEF4FF] font-bold py-2 px-4">
+              Not Applied
+            </button>
+            <p class="card-description to-gray-600">
+              Design and maintain scalable backend systems using Node.js and
+              AWS. Collaborate with cross-functional teams to deliver
+              high-quality products.
+            </p>
+            <button
+              class="card-interview-btn text-green-500 font-bold py-2 px-4 rounded border border-green-500"
+            >
+              INTERVIEW
+            </button>
+            <button
+              class="card-rejected-btn text-red-500 font-bold py-2 px-4 border-red-500 border rounded ml-2"
+            >
+              REJECTED
+            </button>
+          </div>
+          <div>
+            <button
+              class="card-delete-btn text-gray-300 border rounded-full p-2 w-12 h-12 border-gray-300 cursor-pointer hover:text-red-300 hover:border-red-400"
+            >
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- interniew section -->
+       <div class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between rounded-2xl">
+        <h2 class="text-xl ">interview section</h2>
+       </div>
+       <!-- reject section start -->
+        <div class="bg-white p-4 my-4 space-y-4 flex flex-col md:flex-row md:justify-between rounded-2xl">
+          <h2 class="text-xl">reject section</h2>
+        </div>
+
+      <!-- fallback message for no job -->
+      <div id="no-jobs-message" class="bg-white text-center py-8 rounded-2xl">
+        <img src="./jobs.png" alt="no jobs" class="mx-auto mb-4 w-32" />
+        <p class="text-[#002C5C] text-2xl font-bold">No jobs available</p>
+        <p class="text-gray-500 pt-1">Check back soon for new opportunities.</p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
